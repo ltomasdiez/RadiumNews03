@@ -1,0 +1,105 @@
+/*ORDER: -position/display
+         -FLEX
+         -BOX MODEL (width, height, margin, padding, top, lef, etc.)
+         -Background y border
+         -font-size, text-shadow, etc.)
+         -etc.*/
+/*------------------GLOBAL------------------*/
+body{
+    background-color:white;
+    width: 95%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/*-----------------HEADER------------------*/
+header{
+    border-radius:2em;
+    margin:2px;
+    margin-top:10px;
+    background-color:#EE6C4D;
+    color: white;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+.containerHeader{
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+.containerHeader-1{
+    display:flex;
+    padding-bottom:10px;
+    margin-top:-20px;
+}
+.containerHeader-2{
+    display:flex;
+    height: 30px;
+    margin-bottom:10px;
+    padding-top: 0;
+    margin-top: 0;
+    background-color:#59A5D8;
+    border-radius:1.3em;
+    text-align: center;
+}
+.box1-1{
+    order:2;
+    flex:3;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: -40px;
+    padding-bottom: -10px;
+}
+.box1-2{
+    order: 1;
+    margin-top: 55px;
+    margin-bottom: -40px;
+    padding-bottom: -10px;
+}
+.box2-1{
+    flex: 4;
+    order:1;
+    border: 1px solid white;
+}
+
+.containerUl{
+    display: flex;
+    justify-content: center;
+}
+.li1{
+    padding: 5px 25px;
+    list-style: none;
+}
+
+.box2-2{
+    flex: 1;
+    order: 2;
+    border: 1px solid white;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: auto;
+    padding-top: 3px;
+}
+.box2-2 a{
+    text-decoration: none;
+}
+
+/*-----------------Back------------------*/
+#back{
+    background-color: ;
+}
+
+
+
+/*
+https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
+*/
